@@ -1,0 +1,11 @@
+name: KitPvPKit
+main: me.capit.kpk.KPKPlugin
+version: 0.01.00
+
+prefix: PKP
+description: A simple all-in-one Kit-PvP plug-in.
+author: Wehttam664
+
+depend: ['EntropyAPI']
+softdepend: ['TagAPI']
+
