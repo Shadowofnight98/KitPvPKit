@@ -4,4 +4,9 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class KPKPlugin extends JavaPlugin {
 
+	@Override
+	public void onEnable(){
+		
+	}
+	
 }

@@ -1,0 +1,53 @@
+# KitPvPKit main configuration.
+
+lang:
+  server_meta:
+    name: '&7Kit&6PvP&7Kit'
+  tags:
+    display: '&7[&8Rank %s%i&7]'
+    prefix:
+      default: '&f'
+      rank_16: '&9'
+      rank_32: '&a'
+      rank_64: '&6'
+  combat:
+    entering: '&cYou have entered combat.'
+    leaving: '&aYou are no longer in combat.'
+  teams:
+    create: '&eCreated team &f%s&e.'
+    not_created: '&cYou must create a team first!'
+    disbanded: '&cThe team was disbanded.'
+    send_invite: '&eInvited &f%s&e to your team.'
+    recieve_invite: '&6&lHey! &aYou've been invited to &f%s&a!'
+  friends:
+    
+tags:
+  enabled: true
+  level_cap: 64
+  exp:
+    required_per_level: 8
+    gain_per_kill: 1
+    gain_based_on_level: true
+fall_damage:
+  enabled: false
+  enabled_in_combat: true
+teams:
+  enabled: true
+  default_size: 3
+  size_ranks:
+    premium_1: 4
+    premium_2: 5
+  prevent_damage: true
+friends:
+  enabled: true
+  require_requests: true
+  prevent_damage: false
+scoreboard:
+  enabled: true
+  show:
+    kdr: true
+    kills: true
+    deaths: false
+    spree: true
+    rank: true
+    
