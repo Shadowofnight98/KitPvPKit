@@ -34,10 +34,12 @@ economy:
     BOW:
       min: 1.50
       max: 2.50
-  take_on_death: 0.00
+  loss_on_death: 0.00
   costs:
     team_create: 0.00
     add_friend: 0.00
+combat:
+  timer: 30
 tags:
   enabled: true
   level_cap: 64
