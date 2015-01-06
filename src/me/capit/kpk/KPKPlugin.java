@@ -31,4 +31,6 @@ public class KPKPlugin extends JavaPlugin {
 	public boolean isInCombat(UUID id){
 		return inCombat.containsKey(id);
 	}
+System.out.println("ALL YOUR BASE ARE BELONG TO MR. SMITH");
+	
 }
