@@ -20,13 +20,31 @@ lang:
     send_invite: '&eInvited &f%s&e to your team.'
     recieve_invite: '&6&lHey! &aYou've been invited to &f%s&a!'
   friends:
-    
+    request_send: '&aFriend request sent to &f%s&a.'
+    request_accept: '&f%s&a accepted your friend request.'
+    request_decline: '&f%s&c declined your friend request.'
+    added: '&f%s&e is now on your friends list.'
+economy:
+  enabled: true
+  entry_fee: 0.00
+  kill_rewards:
+    default:
+      min: 1.00
+      max: 2.00
+    BOW:
+      min: 1.50
+      max: 2.50
+  take_on_death: 0.00
+  costs:
+    team_create: 0.00
+    add_friend: 0.00
 tags:
   enabled: true
   level_cap: 64
   exp:
     required_per_level: 8
-    gain_per_kill: 1
+    gain_per_kill_min: 1
+    gain_per_kill_max: 1
     gain_based_on_level: true
 fall_damage:
   enabled: false
@@ -41,6 +59,7 @@ teams:
 friends:
   enabled: true
   require_requests: true
+  display_declined_requests: false
   prevent_damage: false
 scoreboard:
   enabled: true
